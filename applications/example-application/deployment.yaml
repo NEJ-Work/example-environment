@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: example-application
-        image: docker.io/nej22/example-application
+        image: docker.io/nej22/example-application:v1.0.1
         ports:
         - containerPort: 8080
 ---
